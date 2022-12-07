@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Complete Travel Website Html Css</title>
+	<link rel="stylesheet" href="stylee.css">
+
+	<link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+ 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<!--header--->
+	<header>
+		<span class="logo_helper"></span>
+		<a> <img src="coat.png" height="60px" width="60px" alt="decriptive text about image href="#" class="logo">
+		 <img src="ph.jpg" height="60px" width="60px" alt="decriptive text about image href="#" class="logo"></a>
+		<div class="logo_container">
+			</div>
+		<div class="bx bx-menu" id="menu-icon"></div>
+		
+
+		<ul class="navbar">
+          <li class="Home">
+          <a href="javascript:void(0)" class="dropbtn">Home</a>
+              <div class="Home-content">
+      <a href="history.html">History</a>
+	   <a href="demographics.html">Demographics</a>
+      <a href="geography.html">Geography and Environment</a>
+      <a href="culture.html">Culture </a>
+	   <li class="tourist">
+          <a href="javascript:void(0)" class="dropbtn">Tourist</a>
+              <div class="tourist-content">
+      <a href="tourist luzon.html">Luzon</a>
+      <a href="tourist visayas.html">Visayas</a>
+      <a href="tourist mindanao.html">Mindanao</a>
+
+			<li><a href="Video Gallery.html">Video Gallery</a></li>
+			<li><a href="login.html">Log in</a></li>
+			<li><a href="contact us.html">Contact Us</a></li>
+	
+		</ul>
+	</header>
+
+	<!--Home section--->
+	<section class="home" id="home">
+		<div class="home-text">
+			<h1>Philippines <br> Website</h1>
+			<p>The Philippines is a land rich in natural resources, scenic locales, and friendly smiles. Here, everybody is welcome to be part of the fun - from the captivating coastlines to the creative native crafts, to the unique gastronomic experience, you will find the kind of fun that is uniquely yours.</p>
+			<a href="#" class="home-btn">Let's go now</a>
+		</div>
+	</section>
+
+
+	<!--Package section--->
+	<section class="package" id="package">
+		<div class="title">
+			<h2>Our Upcoming <br> Tour Package</h2>
+		</div>
+
+		<div class="package-content">
+			<div class="box">
+				<div class="thum">
+					<img src="hotel.jpg">
+					<h3>1,999</h3>
+				</div>
+
+				<div class="dest-content">
+					<div class="location">
+						<h4>El nido</h4>
+						<p>4h - 5h</p>
+					</div>
+					<div class="stars">
+						<a href="#"><i class='bx bxs-star'></i></a>
+						<a href="#"><i class='bx bxs-star'></i></a>
+						<a href="#"><i class='bx bxs-star'></i></a>
+						<a href="#"><i class='bx bxs-star'></i></a>
+						<a href="#"><i class='bx bxs-star'></i></a>
+					</div>
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="thum">
+					<img src="hotel 1.jpg">
+					<h3>2,000</h3>
+				</div>
+
+				<div class="dest-content">
+					<div class="location">
+						<h4> Amanpulo </h4>
+						<p>5h</p>
+					</div>
+					<div class="stars">
+						<a href="#"><i class='bx bxs-star'></i></a>
+						<a href="#"><i class='bx bxs-star'></i></a>
+						<a href="#"><i class='bx bxs-star'></i></a>
+						<a href="#"><i class='bx bxs-star'></i></a>
+						<a href="#"><i class='bx bxs-star'></i></a>
+					</div>
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="thum">
+					<img src="hotel 2.jpg">
+					<h3>1,499</h3>
+				</div>
+
+				<div class="dest-content">
+					<div class="location">
+						<h4>Coron</h4>
+						<p>One day</p>
+					</div>
+					<div class="stars">
+						<a href="#"><i class='bx bxs-star'></i></a>
+						<a href="#"><i class='bx bxs-star'></i></a>
+						<a href="#"><i class='bx bxs-star'></i></a>
+						<a href="#"><i class='bx bxs-star'></i></a>
+						<a href="#"><i class='bx bxs-star'></i></a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<!--destination section--->
+	<section class="destination" id="destination">
+		<div class="title">
+			<h2> Most Popular <br> Destination In The Philippines!</h2>
+		</div>
+
+		<div class="destination-content">
+			<div class="col-content">
+				<img src="vigan.jpg">
+				<h5>Vigan</h5>
+				<p>Philippines</p>
+			</div>
+
+			<div class="col-content">
+				<img src="banaue.jpg">
+				<h5>Banaue Terraces</h5>
+				<p>Philippines</p>
+			</div>
+
+			<div class="col-content">
+				<img src="boracay.jpg">
+				<h5>Boracay</h5>
+				<p>Philippines</p>
+			</div>
+
+			<div class="col-content">
+				<img src="puerto.jpg">
+				<h5>Puerto Princesa</h5>
+				<p>Philippines</p>
+			</div>
+
+			<div class="col-content">
+				<img src="sagada.jpg">
+				<h5>Sagada</h5>
+				<p>Philippines</p>
+			</div>
+
+			<div class="col-content">
+				<img src="baguio.jpg">
+				<h5>Baguio</h5>
+				<p>Philippines</p>
+			</div>
+
+		</div>
+	</section>
+
+	<!--Newsletter--->
+	<section class="newsletter">
+		<div class="news-text">
+			<h2>Email</h2>
+			
+		</div>
+
+		<div class="send">
+			<form>
+				<input type="email" placeholder="Write Your Email" required>
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+	</section>
+
+	<!--footer--->
+	<section id="contact">
+		<div class="footer">
+			<div class="main">
+				<div class="list">
+					<h4>About Philippines</h4>
+					<ul>
+						<li><a href="#">About us</a></li>
+						<li><a href="#">Terms & Conditions</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+
+					</ul>
+				</div>
+
+				<div class="list">
+					<h4>Tourist Attraction</h4>
+					<ul>
+						<li><a href="#">Tour</a></li>
+					</ul>
+				</div>
+
+				<div class="list">
+					<h4>Video Gallery</h4>
+					<ul>
+		 				<li><a href="#">Video Gallery</a></li>
+					</ul>
+				</div>
+
+				<div class="list">
+					<h4>Contact Us</h4>
+					<div class="social">
+						<a href="#"><i class='bx bxl-facebook' ></i></a>
+						<a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+						<a href="#"><i class='bx bxl-twitter' ></i></a>
+						<a href="#"><i class='bx bxl-linkedin' ></i></a>
+					</div>
+				</div>
+				<div class="list">
+					<h4>Log in</h4>
+					<ul>
+						<li><a href="#">Log In</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="end-text">
+			<p>Copyright ©2022 All rights reserved</p>
+		</div>
+	</section>
+
+	<!--link to js--->
+	<script src="js/script.js"></script>
+
+</body>
+</html>
